@@ -1,39 +1,18 @@
-package com.company;
+package com.company.shapes;
 
+import com.sun.jdi.connect.Connector;
 
-import java.util.Scanner;
-
+/**
+ * Created by Polina on 01.05.17.
+ */
 public class Main {
+    public static void main(String[] args)
+    {
+        StreightLine streightLine=new StreightLine(2,4);
+     StreightLine.Parametres();
+     Point point=new Point(3,3);
 
-    public static void main(String[] args) {
-	// write your code here
-        Circle c = new Circle();
-        c.area();
-        System.out.println("area = " + c.area());
 
-
-       c.move();
-    //    System.out.println("c.x = " + c.x);
-      //  System.out.println("c.y = " + c.y);
-
-      //  c.cahngeR();
-        System.out.println("c.r = " + c.r);
-      //  c.changeNR();
-      //  System.out.println("c.r2 = " + c.r);
-
-      //  c.checkPoint();
-        c.lengh();
-      //  System.out.println("длина окружности = " + c.lengh());
-
-        c.diameter();
-    //    System.out.println("диаметр = " + c.diameter());
-        c.about();
     }
-
-
-
 }
 
-      ///  System.out.println("r = " + r);
-        //System.out.println("x = " + r);
-        //System.out.println("y = " + r);
